@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>piggyVestClone</title>
+</head>
+<body>
+<header class="head">
+    <a  id="logo" href="https://www.piggyvest.com">
+ <img src="https://res.cloudinary.com/maurizo/image/upload/v1586018988/piggyvest-logo.0b78a8fa_vesfjp.svg" alt="piggybank logo">
+     </a> 
+ </header>
+ <section class="form-group">
+     <header>
+         <h1>Create a Secure Account</h1>
+         <p>Welcome to the future of Savings & Investments</p>
+     </header>
+            <form action="post" class="forms-item">
+                <div>
+                    <label for="fullName">Full Name</label>
+                    <input type="text" id="fullName" placeholder="Full Name" required>
+                </div>
+                <div>
+                    <label for="email">Email Address</label>
+                    <input type="email" name="email" id="email" placeholder="Email Address" required>
+                </div>
+                <div>
+                    <label for="phonenumber">Phone Number</label>
+                    <input type="number" name="phonenumber" id="phonenumber" placeholder="Phone Number" required>
+                </div>
+                <div>
+                    <label for="password">Password</label>
+                <input type="password" name="password" id="password" placeholder="Password" required>
+                </div>
+                <div>
+                    <label for="referrer">Referrer Phone or Promo Code (Optional)
+                    </label>
+                    <input type="text" id="referrer" placeholder="Referrer Phone Or Code" option>
+                </div>
+                <div>
+                    <label for="datalist">How Did You Hear About Us? (Optional)</label>
+                <input list="getToKnowUs"  id="datalist" placeholder="Click To Select">
+                    <datalist id="getToKnowUs" >
+                        <option value="Facebook">
+                        <option value="Twitter">
+                        <option value="Friends/Family/Coworker Referral">
+                        <option value="Google search">
+                        <option value="Google playstore">
+                        <option value="Online Blog">
+                        <option value="Local Newspaper">
+                    </datalist><br>
+                </div>
+                <div>
+                    <button >CREATE ACCOUNT</button>
+                </div>
+            </form>
+    </section>
+    <footer>
+            <a id="footer" href="https://dashboard.piggyvest.com/login">Already have an account? Log In</a>
+    </footer>
+ </body>

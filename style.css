@@ -1,111 +1,93 @@
-body{
-        background-color: #ADD8E6;
-        font-family: sans-serif;
-    }
-    a{
-       cursor: pointer; 
-    }
-    img{
-        margin: 48px auto;
-        max-width: 191px;
-        height: 34;
-        display: block;
-        
-    }
-    h1{
-        font-size: 20px;
-        color: #083e9e;
-        text-align: center;
-        font-weight: bolder;
+.container{
+    background-color:rgba(36, 20, 5, 0.9);
+    font-size: 20px;
+    display: grid;
+    grid-template-rows: 80vh repeat(2,min-content) min-content 1fr;
+    grid-template-columns:[full-start center-start] 1fr repeat(8,[col-start] 8rem [col-end]) 1fr[center-end full-end];
+    margin-top: 20px;
+}
+.part2{
+    grid-column: center-start/full-end;
+    background-image: linear-gradient(rgba(36, 20, 5, 0.9),rgba(36, 20, 5, 0.9)), url("head.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    display: grid;
+}
+span{
+    color: tomato;
+    
+}
+p{
+    justify-self: center;
+}
+h1{
+    justify-self: center;
+     
+}
+button{
+    width: 100px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: tomato;
+    line-height: 1;
+    border: 0;
+    justify-self: flex-end;
+    margin-right: 200px;
+}
+button:hover{
+    height: 40px;
+}
+.part3{
+    background-color:white;
+    grid-column: center-start/col-end 3;
+    display: grid;
+}
+img{
+    margin:auto;
+    border-radius: 50%;
+}
+.part4{
+    background-color: white;
+    grid-column: col-start 4/ full-end;
+    
+}
+.part5{
+    background-color:white;
+    grid-column: center-start/col-end 3 ;
+    padding-left: 20px;
+}
+.part6{
+    background-color: white;
+    grid-column: col-start 4/ full-end;
+    display: grid;
+   
+}
+label progress{
+    padding: 10px;
+    border-radius: 10px;
+}
+.part7{
+    background-color: darkseagreen;
+    grid-column: col-start 3/ col-end 6;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+}
+.part8{
+    background-color: darkslategray;
+    grid-column: full-start/full-end;
+}
 
-
-    }
-    p{
-        font-size: 14px;
-        color: #4a5568;
-        text-align: center;
-
-    }
-    div{
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 32px;
-
-    }
-    label{
-        font-size: 12px;
-        color: #4a5568;
-        margin-bottom: 4px;
-        font-weight: 700;
-        line-height: 2;
-    }
-
-    input{
-        display: flex;
-        padding: 10px;
-        border: hidden;
-        color: #1a202c;
-        padding-left: 12px;
-        padding-right: 8px;
-        padding-bottom: 12px;
-        padding-top: 12px;
-        border-radius: 4px;
-        background-color: #edf2f7;
-        overflow: visible;
-        font-size: 100%;
-        line-height: 2;
-    }
-    #footer{
-        display: flex;
-        color: #fff;
-        white-space: nowrap;
-        font-size: 12px;
-        text-align: center;
-        padding: 4px 12px ;
-        margin-top: 32px;
-        font-weight: 400;
-        justify-content: center;
-        align-items: center;
-        text-decoration: none ;
-        cursor: pointer;
-        margin-bottom: 40px;
-    }
-    #footer:hover{
-        color: #4a5568;
-    }
-    .form-group{
-        background-color: #fff;
-        width: 368px;
-        margin: auto;
-        padding: 40px 40px 16px 40px;
-        border-top-right-radius: 20px ;
-        border-top-left-radius: 20px ;
-        border-bottom-right-radius: 20px;
-    }
-    button{
-        background-color: rgb(8, 62, 158);
-        width: 100%;
-        white-space: nowrap;
-        font-size: 14px;
-        color: white;
-        text-align: center;
-        padding-top: 20px;
-        padding-left: 40px;
-        padding-right: 40px;
-        padding-bottom: 16px;
-        font-weight: 700;
-        justify-content: center;
-        align-items: center;
-        display: flex;
-        border-top-right-radius: 12px ;
-        border-top-left-radius: 12px ;
-        border-bottom-right-radius: 12px;
-        line-height: 2;
-        overflow: visible;
-        border: hidden;
-        cursor: pointer;
-    }
-    button:hover{
-        background-color: #062B6F;
-    }

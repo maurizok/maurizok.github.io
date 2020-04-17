@@ -3,62 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>piggyVestClone</title>
+    <title>riocci</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
- <header class="head">
-    <a  id="logo" href="https://www.piggyvest.com">
- <img src="https://res.cloudinary.com/maurizo/image/upload/v1586018988/piggyvest-logo.0b78a8fa_vesfjp.svg" alt="piggybank logo">
-     </a> 
- </header>
- <section class="form-group">
-     <header>
-         <h1>Create a Secure Account</h1>
-         <p>Welcome to the future of Savings & Investments</p>
-     </header>
-            <form action="post" class="forms-item">
-                <div>
-                    <label for="fullName">Full Name</label>
-                    <input type="text" id="fullName" placeholder="Full Name" required>
-                </div>
-                <div>
-                    <label for="email">Email Address</label>
-                    <input type="email" name="email" id="email" placeholder="Email Address" required>
-                </div>
-                <div>
-                    <label for="phonenumber">Phone Number</label>
-                    <input type="number" name="phonenumber" id="phonenumber" placeholder="Phone Number" required>
-                </div>
-                <div>
-                    <label for="password">Password</label>
-                <input type="password" name="password" id="password" placeholder="Password" required>
-                </div>
-                <div>
-                    <label for="referrer">Referrer Phone or Promo Code (Optional)
-                    </label>
-                    <input type="text" id="referrer" placeholder="Referrer Phone Or Code" option>
-                </div>
-                <div>
-                    <label for="datalist">How Did You Hear About Us? (Optional)</label>
-                <input list="getToKnowUs"  id="datalist" placeholder="Click To Select">
-                    <datalist id="getToKnowUs" >
-                        <option value="Facebook">
-                        <option value="Twitter">
-                        <option value="Friends/Family/Coworker Referral">
-                        <option value="Google search">
-                        <option value="Google playstore">
-                        <option value="Online Blog">
-                        <option value="Local Newspaper">
-                    </datalist><br>
-                </div>
-                <div>
-                    <button >CREATE ACCOUNT</button>
-                </div>
-            </form>
-</section>
-<footer>
-            <a id="footer" href="https://dashboard.piggyvest.com/login">Already have an account? Log In</a>
-</footer>
+<body class="container">
+    
+    <section class="part2" id="home">
+        <p>Looking For a Developer...?</p>
+        <h1>Here I'm <span>Maurizo</span></h1>
+        <button>Download Cv</button>
+    </section>
+    <section class="part3">
+        <img src="maurizo.jpg" alt="profilepic" width="400px" height="500px">
+    </section>
+    <section class="part4" id="aboutme">
+        <h2>About Me</h2>
+        <p>Hi My name is <span>Maurice Kosisochukwu</span>, I am Front-end intern. I am out and ready to master the engineering and mechanics of Front-end development with the least time frame it takes. I started out my Career early this year with start.ng platform and its be awesome ever-since.</p>
+        <h3>Bio-data</h3>
+        <p><strong>Name: </strong> Oodo Maurice Kosisochukwu</p>
+        <p><strong>State of Origin: </strong> Enugu State</p>
+        <p><strong>Date of Birth: </strong> 17th July 1995</p>
+        <p><strong>Adresss: </strong> 7 Akilo road Ogba</p>
+        <p><strong>Occupation: </strong> Front-End Developer</p>
+        <p><strong>Home Town: </strong> Enugu Ezike</p>
+        <p><strong>Slack ID: </strong> Maurizo</p>
+        
+        
+    </section>
+    <section class="part5" id="hobbies">
+        <h3>Here are Ranges of My Hoobbies</h3>
+        <ol>
+            <li>Reading</li>
+            <li>Listening to Music</li>
+            <li>Coding</li>
+            <li>Rapping</li>
+            <li>Teaching</li>
+        </ol>
+        <h3>My Interest includes</h3>
+        <ol>
+            <li>Front-End Libraries</li> 
+            <li>Backend Javascript</li> 
+            <li>The MEAN STACK technologies</li> 
+            <li>Machine Learning and Artificial Intelligence</li> 
+        </ol>
+
+    </section>
+    <section class="part6">
+        <h3>Experience and Skills</h3>
+        <label for="HTML%/CSS3">HTML5/CSS3</label>
+        <progress id="HTML%/CSS3" value="85" max="100">85%</progress> <br>
+        <label for="Javascript">JAVASCRIPT</label>
+        <progress id="Javascript" value="40" max="100">40%</progress> <br>
+        <label for="nodejs">NODEJS</label>
+        <progress id="nodejs" value="75" max="100">75%</progress><br>
+        <label for="mongodb">MONGODB</label>
+        <progress id="mongodb" value="35" max="100">35%</progress>
+
+
+    </section>
+    <section class="part7" id="contactform">
+        <h3>Contact Me</h3>
+        <form action="#" method="post" class="form-groups">
+            <form action="action_page.php">
+
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                  <option value="australia">Australia</option>
+                  <option value="canada">Canada</option>
+                  <option value="usa">USA</option>
+                  <option value="usa">Nigeria</option>
+                </select>
+            
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+             <button type="submit">Send</button>
+        </form>
+
+    </section>
+
 </body>
 </html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scoreboard</title>
+    <link rel="stylesheet" href="main.css">
+  <style>
+   .container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 80rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.btn {
+  font-size: 1.6rem;
+  padding: 1.5rem 0;
+  width: 20rem;
+  text-align: center;
+  border: 0.1rem solid #a764ff;
+  margin-bottom: 1rem;
+  text-decoration: none;
+  color: rgb(197, 169, 197);;
+  background-color:rgb(58, 2, 44);
+  border-radius: 0.5rem;
+}
+
+.btn:hover {
+  cursor: pointer;
+  box-shadow: 0 0.4rem 1.4rem 0 rgb(46, 3, 46);
+  transform: translateY(-0.1rem);
+  transition: transform 150ms;
+}
+
+
+
+h1#finalScore {
+  margin-bottom: 2rem;
+  color:rgb(65, 4, 65);
+}
+  </style>
+</head>
+
+<body>
+    <div class="container">
+        <div id="end">
+          <label>Nice Attempt! You Scored</label>
+          <h1 id="finalScore"></h1>
+          <a href="quiz.html" class="btn">RETAKE</a>
+          <a href="index.html" class="btn">START</a>
+        </div>
+      </div>
+      <script>
+        const saveScoreBtn = document.getElementById("saveScoreBtn");
+        const finalScore = document.getElementById("finalScore");
+        const mostRecentScore = localStorage.getItem("mostRecentScore");
+        finalScore.innerText = mostRecentScore;
+      </script>
+</body>
+</html>

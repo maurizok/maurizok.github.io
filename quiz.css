@@ -80,7 +80,7 @@ button:hover{
 .choice-rapper{
     display: flex;
     width: 100%;
-    font-size: 1.8rem;
+    font-size: 140%;
     border: 1rem solid rgb(58, 2, 44);
     border-bottom-right-radius: 2rem;
     border-top-left-radius: 2rem;
@@ -112,9 +112,3 @@ button:hover{
   }
   
  
-footer{
-    display: flex;
-    justify-content: space-evenly;
-    border-top: 2px solid rgb(75, 37, 87);
-    background-color: rgb(58, 2, 44);
-}

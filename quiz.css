@@ -98,7 +98,7 @@ button:hover{
     color:rgb(197, 169, 197);
 }
 .choicetext{
-    padding: 100%;
+    padding: 1.5rem;
 }
 .correct {
     background-color: #16a738;

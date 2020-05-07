@@ -82,6 +82,7 @@ button:hover{
     border: 1rem solid rgb(58, 2, 44);
     border-bottom-right-radius: 2rem;
     border-top-left-radius: 2rem;
+    margin-top: 2rem;
 }
 .choice-rapper:hover{
     cursor: pointer;

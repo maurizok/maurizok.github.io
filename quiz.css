@@ -49,8 +49,6 @@
 
 h2{
     margin-top: 2rem;
-    margin-bottom: 2rem;
-    
 }
 header h1{
     display: flex;
@@ -103,10 +101,7 @@ button:hover{
     background-color: #16a738;
     color: white;
   }
-  
-  
-  
-  .incorrect {
+ .incorrect {
     background-color: #9b0a18;
     color: white;
   }

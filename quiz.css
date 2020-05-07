@@ -31,10 +31,11 @@
   #hod-item {
     border: 0.4rem solid rgb(75, 37, 87);;
     padding: 1rem;
-    border-radius: 0.5rem;
+    border-bottom-right-radius: 2rem;
+    border-top-right-radius: 2rem;
   }
   .question-container{
-    font-size:2rem; 
+    font-size:150%; 
     width: 100vw;
     height: 85vh;
     display: flex;
@@ -59,7 +60,7 @@ header h1{
     border-bottom: 2px solid rgb(75, 37, 87);
     background-color: rgb(58, 2, 44);
     color: rgb(197, 169, 197);
-    font-size: 2rem;
+    font-size: 150%;
 }
   button {
     width: 8rem;

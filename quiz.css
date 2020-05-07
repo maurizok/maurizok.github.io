@@ -31,6 +31,7 @@
   #hod-item {
     border: 0.4rem solid rgb(75, 37, 87);
     padding: 1rem;
+    margin-bottom: 2rem;
     border-bottom-right-radius: 2rem;
     border-top-left-radius: 2rem;
   }

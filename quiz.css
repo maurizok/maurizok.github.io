@@ -31,8 +31,8 @@
   #hod-item {
     border: 0.4rem solid rgb(75, 37, 87);;
     padding: 1rem;
-    border-bottom-right-radius: 2rem;
-    border-top-right-radius: 2rem;
+     border-bottom-right-radius: 2rem;
+    border-top-left-radius: 2rem;
   }
   .question-container{
     font-size:150%; 
@@ -47,9 +47,8 @@
 }
 
 h2{
-    margin-bottom: 2rem;
-    border-bottom-right-radius: 2rem;
-    border-top-right-radius: 2rem;
+    margin: 2rem 0;
+    
 }
 header h1{
     display: flex;
@@ -80,7 +79,7 @@ button:hover{
 .choice-rapper{
     display: flex;
     width: 100%;
-    font-size: 100%;
+    font-size: 80%;
     border: 1rem solid rgb(58, 2, 44);
     border-bottom-right-radius: 2rem;
     border-top-left-radius: 2rem;
